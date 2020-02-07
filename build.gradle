@@ -21,7 +21,6 @@ dependencies {
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
 		exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
 	}
-	// https://mvnrepository.com/artifact/io.leangen.graphql/graphql-spqr-spring-boot-starter
 	compile group: 'io.leangen.graphql', name: 'graphql-spqr-spring-boot-starter', version: '0.0.4'
 
 	compile 'com.graphql-java:graphiql-spring-boot-starter:5.0.2'
