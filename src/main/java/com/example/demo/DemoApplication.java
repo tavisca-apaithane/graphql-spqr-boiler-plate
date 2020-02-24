@@ -19,8 +19,8 @@ public class DemoApplication {
 	public CommandLineRunner demo(){
 		return args -> {
 			User user = new User();
-			user.setFirstName("graphql");
-			user.setLastName("annotation-configuration");
+			user.setFirstName("engage");
+			user.setLastName("alskdjf;als");
 			userRepository.save(user);
 		};
 	}
